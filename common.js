@@ -15,7 +15,7 @@ let score = 0;
 
     let countFive = prompt('Сколько будет 5 / 0?');
 
-        if (countFive == 0) {
+        if (countFive == '0') {
             score = score + 10;
         };
 
