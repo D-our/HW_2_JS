@@ -27,7 +27,7 @@ let score = 0;
 
     let waterBoils = prompt('При какой температуре закипает вода?');
 
-        if (waterBoils == '100') {
+        if (waterBoils == 100) {
             score = score + 10;
         };
 
